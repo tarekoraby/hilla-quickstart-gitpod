@@ -1,5 +1,5 @@
 tasks:
-  - init: mvn
+  - init: mvn vaadin:prepare-frontend | mvn vaadin:build-frontend 
 
   - command: mvn
 ports:
