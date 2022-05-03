@@ -1,5 +1,5 @@
 tasks:
-  - init: mvn 
+  - init: mvn install -Pproduction 
 
   - command: mvn
 ports:
